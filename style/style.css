@@ -6,88 +6,110 @@ Experiment with deleting lines of code from the CSS to see how it affects the we
 
 */
 body {
-    padding: 0;
-    margin: 30px;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 18px;
-    line-height: 150%;
-    color: #333;
-    background: #efeee7;
-    text-align: center;
-    width: auto;
-    font-family: 'Russo One', sans-serif;
-  }
-  
-  header {
-    background: #d21034;
-  }
-  
-  h1 {
-    padding: 20px 0;
-    margin: 0;
-    margin-bottom: 20px;
-    font-size: 28px;
-    color: #eee;
-    text-align: center;
-    background: #333;
-  }
-  
-  h2 {
-    font-size: 18px;
-  }
+  padding: 0;
+  margin: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  line-height: 150%;
+  color: #333;
+  background: #efeee7;
+  text-align: center;
+  width: auto;
+  font-family: "Russo One", sans-serif;
+}
 
-  .name {
-      font-size: 25px;
-  }
-  
-  a {
-    color: orange;
-  }
-  
-  .container {
-    width: 1024px;
-    margin: 0 auto;
-  }
-  
+.navbar {
+  text-align: right;
+}
+
+header {
+  clear: both;
+  background: black;
+}
+
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #eee;
+  text-align: center;
+  background: #333;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 20;
+}
+
+.name {
+  font-size: 25px;
+}
+
+a {
+  color: orange;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+/*
   .main-bio,
   .contact-info,
   bio-image {
     float: left;
   }
-  
-  .main-bio {
-    width: 40%;
-    position: relative;
-    left: 125px;
-    top: 55px;
-  }
-  
-  .contact-info {
-    width: 30%;
-    position: relative;
-    left: 150px;
-    top: 20px;
-  }
+  */
+.main-bio,
+.sub-bio {
+  width: 40%;
+  position: relative;
+  left: 125px;
+  top: 55px;
+}
 
-  .bio-image {
-    width: 200px;
-    height: 200px;
-    margin-right: 20px;
-    margin-left: 115px;
-    border-radius: 50%;
-    vertical-align: top;
-    right: 45px;
-    position: relative;
-  }
+.contact-info {
+  width: 30%;
+  position: relative;
+  top: 20px;
+}
 
-  #link {
-      color: orange;
-  }
+.bio-image {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+  margin-left: 115px;
+  border-radius: 50%;
+  vertical-align: top;
+  right: 45px;
+  position: relative;
+}
+
+#link {
+  color: orange;
+}
 
 #link:hover {
   color: red;
 }
 
-  .list {
-      list-style-type: none;
-  }
+.list {
+  list-style-type: none;
+  font-weight: bolder;
+}
+
+.link:hover {
+  color: red;
+}
+#soon {
+  font-size: 75px;
+  font-weight: bolder;
+}
