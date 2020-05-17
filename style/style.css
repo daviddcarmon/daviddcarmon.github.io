@@ -21,6 +21,15 @@ body {
   font-family: "Russo One", sans-serif;
   font-weight: lighter;
 }
+
+/* footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+footer.ul {
+  text-align: center;
+} */
 .navBar {
   letter-spacing: 0.4em;
 }
@@ -87,7 +96,7 @@ bio-image {
   height: 200px;
   margin-top: 100px;
   /* margin-right: 20px; */
-  margin-left: 1050px;
+  margin-left: 660px;
   margin-bottom: 100px;
   border-radius: 50%;
   /* vertical-align: top; */
@@ -96,13 +105,20 @@ bio-image {
   opacity: 0.7;
 }
 
-a {
+a,
+button {
   color: orange;
   list-style-type: none;
   text-decoration: none;
+  background-color: transparent;
 }
 
 a:hover {
+  color: red;
+  text-decoration: none;
+  font-weight: bolder;
+}
+button:hover {
   color: red;
   text-decoration: none;
   font-weight: bolder;
@@ -134,7 +150,7 @@ a:hover {
     margin-top: 100px;
     /* margin-right: 20px;
     margin-left: 115px; */
-    margin-left: 850px;
+    margin-left: 470px;
     margin-bottom: 100px;
     border-radius: 50%;
     /* vertical-align: top; */
@@ -170,7 +186,7 @@ a:hover {
     font-size: 16px;
   }
   p {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .name {
@@ -199,7 +215,7 @@ a:hover {
   .bio-image {
     width: 100px;
     height: 100px;
-    margin-left: 370px;
+    margin-left: 340px;
     margin-bottom: 70px;
     opacity: 0.7;
   }
