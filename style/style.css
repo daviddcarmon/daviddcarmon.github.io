@@ -7,24 +7,22 @@ Experiment with deleting lines of code from the CSS to see how it affects the we
 */
 body {
   padding: 0;
-  margin: 30px;
+  margin: 20px;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 14px;
   line-height: 150%;
-  color: #333;
+  color: rgb(236, 223, 206);
   background: #efeee7;
+  background-image: url(../images/natureBackground2.jpg);
+  background-size: cover;
+  /* background-repeat: no-repeat; */
   text-align: center;
   width: auto;
   font-family: "Russo One", sans-serif;
+  font-weight: lighter;
 }
-
-.navbar {
-  text-align: right;
-}
-
-header {
-  clear: both;
-  background: black;
+.navBar {
+  letter-spacing: 0.4em;
 }
 
 h1 {
@@ -34,7 +32,7 @@ h1 {
   font-size: 28px;
   color: #eee;
   text-align: center;
-  background: #333;
+  /* background: #333; */
 }
 
 h2 {
@@ -50,30 +48,28 @@ h4 {
 }
 
 .name {
-  font-size: 25px;
-}
-
-a {
-  color: orange;
+  font-size: 30px;
 }
 
 .container {
   width: 1024px;
   margin: 0 auto;
 }
-/*
-  .main-bio,
-  .contact-info,
-  bio-image {
-    float: left;
-  }
-  */
+
 .main-bio,
 .sub-bio {
   width: 40%;
+  font-size: 18px;
   position: relative;
-  left: 125px;
   top: 55px;
+  border-right: 600px solid rgba(255, 255, 255, 0);
+  border-left: 600px solid rgba(255, 255, 255, 0);
+  line-height: 2em;
+}
+
+bio-image {
+  left: 125px;
+  opacity: 75;
 }
 
 .contact-info {
@@ -85,31 +81,185 @@ a {
 .bio-image {
   width: 200px;
   height: 200px;
-  margin-right: 20px;
-  margin-left: 115px;
+  margin-top: 100px;
+  /* margin-right: 20px; */
+  margin-left: 660px;
+  margin-bottom: 100px;
   border-radius: 50%;
-  vertical-align: top;
-  right: 45px;
-  position: relative;
+  /* vertical-align: top; */
+  /* right: 45px; */
+  /* position: relative; */
+  opacity: 0.7;
 }
 
-#link {
+a {
   color: orange;
-}
-
-#link:hover {
-  color: red;
-}
-
-.list {
   list-style-type: none;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
   font-weight: bolder;
 }
 
-.link:hover {
-  color: red;
-}
 #soon {
   font-size: 75px;
   font-weight: bolder;
+}
+
+/* MEDIA Query */
+@media only screen and (max-width: 1400px) {
+  body {
+    font-weight: lighter;
+  }
+  .main-bio,
+  .sub-bio {
+    width: 40%;
+    font-size: 18px;
+    position: relative;
+    top: 55px;
+    border-right: 20px solid rgba(255, 255, 255, 0);
+    border-left: 20px solid rgba(255, 255, 255, 0);
+    line-height: 2em;
+  }
+  .bio-image {
+    width: 200px;
+    height: 200px;
+    margin-top: 100px;
+    /* margin-right: 20px;
+    margin-left: 115px; */
+    margin-left: 850px;
+    margin-bottom: 100px;
+    border-radius: 50%;
+    /* vertical-align: top; */
+    /* right: 45px; */
+    /* position: relative; */
+    opacity: 0.7;
+  }
+}
+
+@media only screen and (max-width: 968px) {
+  body {
+    font-weight: lighter;
+  }
+  h1 {
+    padding: 25px 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #eee;
+    text-align: center;
+    /* background: #333; */
+  }
+
+  h2 {
+    font-size: 14px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+  p {
+    font-size: 10px;
+  }
+
+  .name {
+    font-size: 22px;
+  }
+
+  .navBar {
+    letter-spacing: 0.1em;
+  }
+
+  .main-bio,
+  .sub-bio {
+    width: 40%;
+    font-size: 12px;
+    position: relative;
+    top: 55px;
+    border-right: 10px solid rgba(255, 255, 255, 0);
+    border-left: 10px solid rgba(255, 255, 255, 0);
+    line-height: 2em;
+  }
+
+  .list {
+    font-size: 10px;
+  }
+
+  .bio-image {
+    width: 100px;
+    height: 100px;
+    margin-left: 370px;
+    margin-bottom: 70px;
+    opacity: 0.7;
+  }
+}
+
+/* MEDIA Query */
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-weight: lighter;
+  }
+  h1 {
+    padding: 25px 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #eee;
+    text-align: center;
+    /* background: #333; */
+  }
+
+  h2 {
+    font-size: 14px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+  p {
+    font-size: 10px;
+  }
+
+  .name {
+    font-size: 22px;
+  }
+
+  .navBar {
+    letter-spacing: 0.1em;
+  }
+
+  .main-bio,
+  .sub-bio {
+    width: 40%;
+    font-size: 12px;
+    position: relative;
+    top: 55px;
+    border-right: 10px solid rgba(255, 255, 255, 0);
+    border-left: 10px solid rgba(255, 255, 255, 0);
+    line-height: 2em;
+  }
+
+  .list {
+    font-size: 10px;
+  }
+
+  .bio-image {
+    width: 100px;
+    height: 100px;
+    margin-left: 220px;
+    margin-bottom: 70px;
+    opacity: 0.7;
+  }
 }
