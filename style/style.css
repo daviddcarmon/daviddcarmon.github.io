@@ -87,7 +87,7 @@ bio-image {
   height: 200px;
   margin-top: 100px;
   /* margin-right: 20px; */
-  margin-left: 660px;
+  margin-left: 1050px;
   margin-bottom: 100px;
   border-radius: 50%;
   /* vertical-align: top; */
@@ -155,7 +155,6 @@ a:hover {
     font-size: 18px;
     color: #eee;
     text-align: center;
-    font-size: 20px;
     /* background: #333; */
   }
 
