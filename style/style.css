@@ -130,6 +130,11 @@ button:hover {
   font-size: 75px;
   font-weight: bolder;
 }
+.linkedIn,
+.email,
+.resume {
+  font-size: 26px;
+}
 
 /* MEDIA Query */
 @media only screen and (max-width: 1400px) {
