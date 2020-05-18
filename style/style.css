@@ -22,14 +22,15 @@ body {
   font-weight: lighter;
 }
 
-/* footer {
-  position: absolute;
+footer {
+  position: relative;
+  margin-top: 20px;
   bottom: 0;
   text-align: center;
 }
 footer.ul {
   text-align: center;
-} */
+}
 .navBar {
   letter-spacing: 0.4em;
 }
