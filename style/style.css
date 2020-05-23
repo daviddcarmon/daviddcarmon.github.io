@@ -9,6 +9,8 @@ body {
   padding: 0;
   margin: 20px;
   font-family: Georgia, "Times New Roman", Times, serif;
+  width: 100vh;
+  height: 100vh;
   font-size: 14px;
   line-height: 150%;
   color: rgb(236, 223, 206);
@@ -134,6 +136,8 @@ a:hover {
 @media only screen and (max-width: 1400px) {
   body {
     font-weight: lighter;
+    width: 100vh;
+    height: 100vh;
   }
   .main-bio,
   .sub-bio {
@@ -164,6 +168,8 @@ a:hover {
 @media only screen and (max-width: 968px) {
   body {
     font-weight: lighter;
+    width: 100vh;
+    height: 100vh;
   }
   h1 {
     padding: 25px 0;
@@ -227,6 +233,9 @@ a:hover {
 @media only screen and (max-width: 600px) {
   body {
     font-weight: lighter;
+    background-size: inherit;
+    width: 100vh;
+    height: 100vh;
   }
   h1 {
     padding: 25px 0;
@@ -261,15 +270,32 @@ a:hover {
     letter-spacing: 0.1em;
   }
 
+  /* footer {
+    position: fixed;
+    text-align: center;
+  } */
+
+  body,
   .main-bio,
-  .sub-bio {
-    width: 40%;
+  .sub-bio,
+  .projects,
+  #contactInfo {
+    width: 70%;
     font-size: 16px;
     position: relative;
     top: 55px;
-    border-right: 10px solid rgba(255, 255, 255, 0);
-    border-left: 10px solid rgba(255, 255, 255, 0);
+    /* border-right: 0px solid rgba(255, 255, 255, 0);
+    border-left: 40px solid rgba(255, 255, 255, 0); */
     line-height: 2em;
+  }
+
+  .main-bio {
+    border-right: 0px solid rgba(255, 255, 255, 0);
+    border-left: 50px solid rgba(255, 255, 255, 0);
+  }
+
+  p.projects {
+    font-size: 6px;
   }
 
   .list {
