@@ -207,7 +207,7 @@ a:hover {
   .main-bio,
   .sub-bio {
     width: 40%;
-    font-size: 12px;
+    font-size: 16px;
     position: relative;
     top: 55px;
     border-right: 10px solid rgba(255, 255, 255, 0);
@@ -276,7 +276,6 @@ a:hover {
   } */
 
   body,
-  .main-bio,
   .sub-bio,
   .projects,
   #contactInfo {
@@ -284,12 +283,14 @@ a:hover {
     font-size: 16px;
     position: relative;
     top: 55px;
-    /* border-right: 0px solid rgba(255, 255, 255, 0);
-    border-left: 40px solid rgba(255, 255, 255, 0); */
+    border-right: 0px solid rgba(255, 255, 255, 0);
+    border-left: 0px solid rgba(255, 255, 255, 0);
+    margin-right: -10px;
     line-height: 2em;
   }
 
   .main-bio {
+    width: 70%;
     border-right: 0px solid rgba(255, 255, 255, 0);
     border-left: 50px solid rgba(255, 255, 255, 0);
   }
