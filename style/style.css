@@ -94,6 +94,10 @@ bio-image {
   top: 20px;
 }
 
+p.projects {
+  font-size: 20px;
+}
+
 .bio-image {
   width: 200px;
   height: 200px;
