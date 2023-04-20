@@ -1,9 +1,7 @@
 import React from "react";
 import { styled } from "@mui/material/styles";
 import {
-  Button,
   Container,
-  Box,
   Link,
   Grid,
   Paper,
@@ -11,9 +9,6 @@ import {
   AppBar,
 } from "@mui/material";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import useWindowDimensions from "./functions";
-import { padding } from "@mui/system";
-import Project from "../components/pages/projects";
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",

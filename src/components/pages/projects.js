@@ -1,4 +1,3 @@
-// import { Container } from "@mui/system";
 import { Container, Grid } from "@mui/material";
 import React from "react";
 
@@ -33,6 +32,7 @@ function Projects() {
               <a
                 href="https://daviddcarmon.github.io/Day-Planner/"
                 target="_blank"
+                rel='noreferrer'
               >
                 Application
               </a>

@@ -10,6 +10,7 @@ function About() {
             href="https://www.linkedin.com/in/david-c-2835011a8/"
             className="linkedIn"
             target="_blank"
+            rel='noreferrer'
           >
             LinkedIn
           </a>
